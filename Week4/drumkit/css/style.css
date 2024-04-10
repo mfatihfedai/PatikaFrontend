@@ -1,0 +1,28 @@
+.key {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    text-align: center;
+    border-width: 1px;
+    border-color: rgb(32, 42, 131);
+    border-radius: 20px;
+    background-color: #ffc600;
+    height: 100px;
+    width: 100px;
+    transition: all 0.07s;
+}
+kbd {
+    display: block;
+    font-size: 20px;
+}
+
+.drums-img {
+    width: 100%;
+    height: 700px;
+}
+.playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 10px #ffc600;
+}

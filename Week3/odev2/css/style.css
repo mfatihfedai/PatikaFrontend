@@ -1,0 +1,11 @@
+.bigger:hover {
+    font-size: 1.1em;
+    transition: 0.3s;
+}
+.pb-6 {
+    padding-bottom: 80px;
+}
+
+.border-2 {
+    border-width: 2px !important;
+}

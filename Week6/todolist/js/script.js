@@ -12,24 +12,13 @@
       list.removeChild(li);
     }
   });
-
-  // const closeButtons = document.querySelectorAll(".close");
-
-  // closeButtons.forEach(closeButton => {
-  //   closeButton.addEventListener("click", function() {
-  //   const li = this.parentElement;
-  //   list.removeChild(li);
-  //   })
-  // })
   function addTask() {
     let newTask = document.getElementById("task").value.trim(); // Metni al ve boşlukları temizle
     
     if (newTask) {
-      // Yeni bir li öğesi oluştur
       let newListItem = document.createElement("li");
       newListItem.textContent = newTask;
   
-      // Listeye yeni öğeyi ekle
       let closeDiv = document.createElement("div");
       closeDiv.classList.add("close");
       closeDiv.textContent = "x";
@@ -37,8 +26,6 @@
       newListItem.appendChild(closeDiv);
       list.appendChild(newListItem);
         
-      
-      // Görev girişini temizle
       document.getElementById("task").value = "";
       $("#liveToast.success").toast("show");
     } else {

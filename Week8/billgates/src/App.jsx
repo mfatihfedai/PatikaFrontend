@@ -34,7 +34,7 @@ function App() {
       </div>
 
       <div className="navbar">
-        $ {totalMoney.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}
+        ${totalMoney.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}
       </div>
 
       <div className="container">

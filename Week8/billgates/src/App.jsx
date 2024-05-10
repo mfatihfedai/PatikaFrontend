@@ -25,7 +25,7 @@ function App() {
     });
     setTotalMoney((prevPrice) => prevPrice - heroPrice);
   };
-
+ 
   return (
     <>
       <div className="headerContainer">

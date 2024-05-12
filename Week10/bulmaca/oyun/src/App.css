@@ -1,13 +1,51 @@
 .App {
   text-align: center;
-  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: aliceblue;
 }
 
-.button {
+.question-name {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.question-area {
+  margin: 20px 0px;
+  height: 60px;
+}
+
+.question {
+  font-size: 22px;
+  border-bottom: 3px solid #ddd;
+  margin: 0px 5px;
   width: 40px;
   height: 40px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.question:hover {
+  background-color: #F44336;
+  color: white;
+  border-bottom: 3px solid #F44336;
+}
+
+.button-area {
+  margin-top: 15px;
+}
+
+button {
+  width: 50px;
+  height: 50px;
   margin: 2px;
   border-radius: 5px;
   border: 0;
   cursor: pointer;
+}
+
+.empty-message {
+  font-size: 25px;
 }

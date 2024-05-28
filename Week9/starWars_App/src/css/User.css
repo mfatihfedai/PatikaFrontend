@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.ship-profile{
+    border: 2px solid;
+    border-radius: 1.5rem;
+    width: 15%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: .8rem; 
+    background-color: #111423;   
+    padding: 0 0 2% 0;
+    a{
+        width: 98%;
+        text-decoration: none;
+        color: #fff;        
+        background-color: #111423;
+        border: 1px solid transparent;
+        border-radius: 1rem;
+        cursor: pointer;
+        
+        .image{
+            background-color: #111423;
+            background-image: url(https://www.trthaber.com/dosyalar/images/AA-3190646.jpg);
+            margin-bottom: 1rem;
+            border: 1px solid transparent;
+            border-radius: 1rem 2rem 0 0;
+            img{
+                background-color: transparent;
+                object-fit: cover;
+                width: 70%;
+                height: 70%;
+            }
+        }
+        .info{
+            background-color: #111423;
+            p{
+                background-color: #111423;
+                font-weight: 600;
+                margin-top: 1rem;
+                span{
+                    background-color: #111423;
+                    font-weight: 400;
+                }
+            }
+            h3{
+                background-color: #111423;
+            }
+        }
+    }
+}
+

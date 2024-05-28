@@ -1,0 +1,35 @@
+.search{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    label{
+        color: #fff;
+        width: 30%;
+        input{
+            margin-left: 1rem;
+            background-color: #351111;
+            border: 1px solid transparent;
+            border-radius: 1rem;
+            color: #fff;
+            width: 70%;
+            height: 2rem;
+            padding-left: 2%;
+            margin-right: 15px;
+        }
+    }
+    
+    button{
+        width: 6rem;
+        height: 2.2rem;
+        background-color: #134e70;
+        font-size: 1rem;
+        color: #fff;
+        border-radius: 2rem;
+        cursor: pointer;
+    }
+}
+.back-home{
+    cursor: pointer;
+}
